@@ -1,0 +1,7 @@
+"mv"
+(move)
+mv newFile ../newFile
+mv newFile ./New/newFile
+(“New” is a directory inside current directory)
+mv takes two parameters- the first is the file to be moved (and its location), the second is where the file will be moved to. Also, mv can be used to rename files:
+mv newFile newerFile
