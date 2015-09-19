@@ -1,0 +1,4 @@
+wc
+(Word Count)
+Gives line, word and character counts of the passed in file. For example:
+wc longText.txt
