@@ -1,0 +1,12 @@
+Grep is used to search for specific things, like strings, files, characters, patters when combined with ls, cat.
+It is possible to use pipe to redirect output to grep, so that it worked with the text from the input stream instead of the file we gave it as an argument.
+Using grep I have to specify what am I looking for.
+It searched only in the directory I am in, not subdirectories.
+
+grep binary *.txt
+To search if word binary is contained inside the file.
+Grep command takes two parameters: first what you want to search for (word binary), second what files you want to search through (in this case “combined”).
+
+Doviles-Air:Text_Files Admin$ cat Learn_to_code.txt | grep “z"
+
+Above example prints only lines of text that contain letter “z”.
